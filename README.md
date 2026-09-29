@@ -1,5 +1,7 @@
 # When does a rectangle fit into an n-dimensional box?
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23034180.svg)](https://doi.org/10.5281/zenodo.23034180)
+
 An explicit necessary and sufficient condition for an $A \times B$ rectangle to fit, after an
 arbitrary rigid motion, into a rectangular box with edges $p_1, \dots, p_n \ge 0$, for every $n \ge 2$,
 with a complete formal proof in Lean 4 / Mathlib.
@@ -96,6 +98,16 @@ comparisons are exact only in exact arithmetic; near the boundary rounding may f
 The analogous criterion for a three-dimensional box in a three-dimensional box:
 [box-in-box](https://github.com/MikhailLevit1987/box-in-box),
 [doi:10.5281/zenodo.22974798](https://doi.org/10.5281/zenodo.22974798).
+
+## Citation
+
+Mikhail Levit, *When does a rectangle fit into an n-dimensional box? An explicit criterion with a formal
+proof*, 2026. Zenodo, [doi:10.5281/zenodo.23034180](https://doi.org/10.5281/zenodo.23034180) (all versions,
+resolves to the latest one).
+
+| Version | DOI |
+|---|---|
+| 1.0 | [10.5281/zenodo.23034181](https://doi.org/10.5281/zenodo.23034181) |
 
 ## License
 
