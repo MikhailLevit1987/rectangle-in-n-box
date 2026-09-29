@@ -1,0 +1,39 @@
+python 3.10.6, numpy 2.2.4
+
+n = 3: 50 pairs near the boundary, 25 of them fit; 6 cases in the criterion
+  criterion (yes/no):                   5.7 us per pair
+  criterion + explicit placement:       7.0 us per fitting pair (invalid placements: 0)
+  Nelder-Mead  5 starts:     309.4 ms per pair (~54,440 times slower); wrong "does not fit": 6 of 25, fit found where the criterion says no: 0
+  Nelder-Mead 20 starts:     978.1 ms per pair (~172,074 times slower); wrong "does not fit": 3 of 25, fit found where the criterion says no: 0
+  SLSQP        1 starts:       2.5 ms per pair (~440 times slower); wrong "does not fit": 15 of 25, fit found where the criterion says no: 0
+  SLSQP        5 starts:       8.0 ms per pair (~1,404 times slower); wrong "does not fit": 2 of 25, fit found where the criterion says no: 0
+  SLSQP       20 starts:      26.2 ms per pair (~4,617 times slower); wrong "does not fit": 1 of 25, fit found where the criterion says no: 0
+
+n = 4: 50 pairs near the boundary, 22 of them fit; 24 cases in the criterion
+  criterion (yes/no):                  26.4 us per pair
+  criterion + explicit placement:      21.2 us per fitting pair (invalid placements: 0)
+  Nelder-Mead  5 starts:     478.3 ms per pair (~18,153 times slower); wrong "does not fit": 22 of 22, fit found where the criterion says no: 0
+  Nelder-Mead 20 starts:    1896.1 ms per pair (~71,955 times slower); wrong "does not fit": 19 of 22, fit found where the criterion says no: 0
+  SLSQP        1 starts:       2.9 ms per pair (~109 times slower); wrong "does not fit": 18 of 22, fit found where the criterion says no: 0
+  SLSQP        5 starts:      11.6 ms per pair (~440 times slower); wrong "does not fit": 5 of 22, fit found where the criterion says no: 0
+  SLSQP       20 starts:      40.3 ms per pair (~1,531 times slower); wrong "does not fit": 1 of 22, fit found where the criterion says no: 0
+
+n = 5: 50 pairs near the boundary, 24 of them fit; 80 cases in the criterion
+  criterion (yes/no):                  79.6 us per pair
+  criterion + explicit placement:      35.6 us per fitting pair (invalid placements: 0)
+  Nelder-Mead  5 starts:     609.0 ms per pair (~7,655 times slower); wrong "does not fit": 24 of 24, fit found where the criterion says no: 0
+  Nelder-Mead 20 starts:    2405.6 ms per pair (~30,240 times slower); wrong "does not fit": 24 of 24, fit found where the criterion says no: 0
+  SLSQP        1 starts:       7.1 ms per pair (~89 times slower); wrong "does not fit": 22 of 24, fit found where the criterion says no: 0
+  SLSQP        5 starts:      14.4 ms per pair (~181 times slower); wrong "does not fit": 9 of 24, fit found where the criterion says no: 0
+  SLSQP       20 starts:      45.7 ms per pair (~575 times slower); wrong "does not fit": 2 of 24, fit found where the criterion says no: 0
+
+n = 6: 50 pairs near the boundary, 24 of them fit; 240 cases in the criterion
+  criterion (yes/no):                 193.9 us per pair
+  criterion + explicit placement:      41.7 us per fitting pair (invalid placements: 0)
+  Nelder-Mead  5 starts:     752.7 ms per pair (~3,882 times slower); wrong "does not fit": 24 of 24, fit found where the criterion says no: 0
+  Nelder-Mead 20 starts:    3259.9 ms per pair (~16,810 times slower); wrong "does not fit": 24 of 24, fit found where the criterion says no: 0
+  SLSQP        1 starts:       5.1 ms per pair (~26 times slower); wrong "does not fit": 20 of 24, fit found where the criterion says no: 0
+  SLSQP        5 starts:      20.6 ms per pair (~106 times slower); wrong "does not fit": 11 of 24, fit found where the criterion says no: 0
+  SLSQP       20 starts:      63.4 ms per pair (~327 times slower); wrong "does not fit": 3 of 24, fit found where the criterion says no: 0
+
+DONE

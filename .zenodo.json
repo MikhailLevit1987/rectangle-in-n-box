@@ -1,0 +1,35 @@
+{
+    "title": "When does a rectangle fit into an n-dimensional box? An explicit criterion with a formal proof",
+    "description": "<p>An explicit necessary and sufficient condition for a rectangle to fit, after an arbitrary rigid motion, into an n-dimensional rectangular box, for every n &ge; 2 (the case k = 2 of the fitting problem of Jerrard and Wetzel). The repository contains the paper (English and Russian), a complete formal proof in Lean 4 / Mathlib, and a reference implementation of the criterion in Python.</p><p>Code: Apache License 2.0. Paper (directory <code>paper/</code>): CC BY 4.0.</p>",
+    "creators": [
+        {
+            "name": "Levit, Mikhail"
+        }
+    ],
+    "upload_type": "software",
+    "access_right": "open",
+    "license": "apache-2.0",
+    "language": "eng",
+    "keywords": [
+        "rectangle in a box",
+        "box in a box",
+        "packing",
+        "rigid motion",
+        "Carver's criterion",
+        "Lean 4",
+        "Mathlib",
+        "formal proof"
+    ],
+    "related_identifiers": [
+        {
+            "identifier": "https://github.com/MikhailLevit1987/rectangle-in-n-box",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+        },
+        {
+            "identifier": "10.5281/zenodo.22974798",
+            "relation": "references",
+            "scheme": "doi"
+        }
+    ]
+}
